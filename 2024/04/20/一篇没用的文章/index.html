@@ -5,7 +5,7 @@
   diytitle: {"enable":true,"leaveTitle":"∑(O_O；) 诶诶诶！别走啊！","backTitle":"(´･ω･`)你回来了呢！"},
   LA51: undefined,
   greetingBox: {"enable":"turn","default":"早安啊~👋","list":[{"greeting":"该睡觉呢了~😴","startTime":0,"endTime":5},{"greeting":"早安啦👋,要有一天的好心情哦！","startTime":6,"endTime":9},{"greeting":"上午好耶👋, 要好好生活哦！","startTime":10,"endTime":10},{"greeting":"11点多啦, 再坚持一会就能吃饭啦！","startTime":11,"endTime":11},{"greeting":"午安哦👋, 宝·~","startTime":12,"endTime":14},{"greeting":"充实的一天辛苦啦❤！","startTime":14,"endTime":18},{"greeting":"晚7点喽, 好好吃顿丰盛的晚餐吧！💖","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松☺~","startTime":20,"endTime":24}]},
-  twikooEnvId: 'discues.us.kg',
+  twikooEnvId: 'https://discues.us.kg',
   commentBarrageConfig:undefined,
   root: '/',
   preloader: {"source":3},
@@ -371,7 +371,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'discues.us.kg',
+      envId: 'https://discues.us.kg',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -388,7 +388,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'discues.us.kg',
+      envId: 'https://discues.us.kg',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -430,7 +430,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'discues.us.kg',
+        envId: 'https://discues.us.kg',
         region: '',
         pageSize: 6,
         includeReply: true
