@@ -1,3 +1,3 @@
-var posts=["2024/10/22/keyboard/","2024/10/11/powershell安装appx/","2024/04/20/一篇没用的文章/","2024/10/05/我个人认为意大利面就应该拌42号混凝土/","2024/10/20/瞬译/","2024/10/11/赛博超能力/","2024/09/20/部分游戏的伪局域网联机/","2024/10/26/非常牛批のflash档案馆/"];function toRandomPost(){
+var posts=["post/powershell安装appx/","post/keyboard/","post/一篇没用的文章/","post/我个人认为意大利面就应该拌42号混凝土/","post/瞬译/","post/赛博超能力/","post/部分游戏的伪局域网联机/","post/非常牛批のflash档案馆/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
