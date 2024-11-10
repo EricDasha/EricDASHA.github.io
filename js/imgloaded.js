@@ -67,13 +67,13 @@ class ProgressiveLoad {
   };
   
   const config = {
-    smallSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g384ad8afc66950094a69a7e22e6889c3.png', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4gd0d283cdb00e38ac2959a97c80c1b8ff.png', // 大图链接 最终显示的图片
-    mobileSmallSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g384ad8afc66950094a69a7e22e6889c3.png', // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4gd0d283cdb00e38ac2959a97c80c1b8ff.png', // 手机端大图链接 最终显示的图片
+    smallSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g9f72ca3324f5ef808265fea8ebac0ed7.png', // 小图链接 尽可能配置小于100k的图片
+    largeSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g5e2830f2e8704018b947b09b108016d7.png', // 大图链接 最终显示的图片
+    mobileSmallSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g9f72ca3324f5ef808265fea8ebac0ed7.png', // 手机端小图链接 尽可能配置小于100k的图片
+    mobileLargeSrc: 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g5e2830f2e8704018b947b09b108016d7.png', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
     };
-
+// 比较小的大图链接 'https://b.bdstatic.com/comment/0Tp_dmFwRxVpAUBy8sln4g4a330f4851600e893a727d5ab014c290.jpg'
   function initProgressiveLoad(config) {
     const target = document.getElementById('page-header');
     if (target && target.classList.contains('full_page')) {
