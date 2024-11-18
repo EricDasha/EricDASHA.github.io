@@ -1,3 +1,3 @@
-var posts=["post/keyboard/","post/powershell安装appx/","post/一篇没用的文章/","post/我个人认为意大利面就应该拌42号混凝土/","post/截图软件推荐/","post/手残联盟十周年/","post/瞬译/","post/赛博超能力/","post/部分游戏的伪局域网联机/","post/非常牛批のflash档案馆/"];function toRandomPost(){
+var posts=["_post/flash档案馆-软件推荐/","_post/keyboard/","_post/powershell安装appx/","_post/localsend-软件推荐/","_post/一篇没用的文章/","_post/意大利面拌42号混凝土/","_post/截图软件-软件推荐/","_post/瞬译-软件推荐/","_post/赛博超能力/","_post/手残联盟十周年/","_post/部分游戏的伪局域网联机/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
