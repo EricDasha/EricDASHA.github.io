@@ -22,9 +22,9 @@
             
             <tag> 软件推荐 </tag>
             
-            <tag> 游戏 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 游戏 </tag>
             
         </tags>
       
@@ -33,7 +33,7 @@
     
     
     <entry>
-      <title>localsend-推荐推荐</title>
+      <title>localsend-软件推荐</title>
       <link href="/_post/localsend-%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
       <url>/_post/localsend-%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
       
@@ -76,9 +76,9 @@
       
         <tags>
             
-            <tag> bilibli </tag>
-            
             <tag> 手残联盟 </tag>
+            
+            <tag> bilibli </tag>
             
         </tags>
       
@@ -211,9 +211,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 系统 </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -263,11 +263,11 @@
       
         <tags>
             
+            <tag> bilibli </tag>
+            
             <tag> 意大利面 </tag>
             
             <tag> 42号混凝土 </tag>
-            
-            <tag> bilibli </tag>
             
         </tags>
       
@@ -292,9 +292,9 @@
       
         <tags>
             
-            <tag> 游戏 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 游戏 </tag>
             
             <tag> 联机 </tag>
             
